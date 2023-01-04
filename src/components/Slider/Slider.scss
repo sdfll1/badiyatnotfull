@@ -1,0 +1,136 @@
+.slider {
+    height: 350px;
+    background: url(../../assets/img/Amir_Temur.png) no-repeat right;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    .gradient {
+        width: 100%;
+        background: linear-gradient(89.16deg, #263a3d 70.78%, rgba(25, 25, 25, 0) 105.05%),
+            url(../../assets/img/flowerLeftBtm.png) left bottom no-repeat;
+        border-radius: 21px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2 {
+            font-size: 61px;
+            font-weight: 400;
+            font-family: "Stylish";
+            color: #c9ac8c;
+            width: 337px;
+            margin-left: 80px;
+            margin-bottom: 10px;
+        }
+        .slide__line {
+            display: flex;
+            justify-content: space-between;
+            width: 250px;
+            margin-left: 80px;
+            background-image: url(../../assets/img/flowerLeftBtm.png);
+            .slide__line_item {
+                height: 3px;
+                width: 57px;
+                background: rgba(255, 255, 255, 0.6);
+                border-radius: 10px;
+            }
+        }
+        .slide__line :first-child {
+            background-color: #fff;
+        }
+    }
+}
+
+.leftBtm {
+    background-image: url(../../assets/img/flowerLeftBtm.png);
+    background-repeat: no-repeat;
+    background-position-y: 120px;
+    height: 100%;
+    width: 100%;
+}
+.topCenter {
+    background-image: url(../../assets/img/flowerTopCntr.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+    width: 100%;
+}
+.rightBtm {
+    background-image: url(../../assets/img/flowerRightBtm.png);
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    background-position-y: 200px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #191919;
+    height: 169px;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    position: absolute;
+    bottom: -140px;
+    // top: 100px;
+    box-shadow: 0px 4px 77px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    p{
+        font-size: 31px;
+        font-weight: 400;
+        color: #c9ac8c;
+        font-family: 'Stylish';
+    }
+    form{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        width: 70%;
+        background-color: #404040;
+        border: none;
+        outline: none;
+        border-radius: 15px;
+        padding: 16px 27px;
+        margin-right: 15px;
+        color: #C9AC8C;
+        border: 5px solid transparent;
+
+    }
+    input:focus{
+        border: 5px solid #C9AC8C;
+        transition: 0.2s ease-in-out;
+    }
+    button{
+        padding: 15px 48px;
+        background-color: #C9AC8C;
+        border-radius: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #3C2710;
+        border: none;
+        outline: none;
+
+    }
+    button:hover{
+        background-color: #ceb79f;
+        // transition: 0.1s ease;
+    }
+    button:active{
+        background-color: #3C2710;
+        color: #C9AC8C;
+        // transition: 0.1s ease;
+    }
+    
+}
+.sliderBig{
+    background-color: #191919;
+    padding: 55px 0 200px 0;
+}

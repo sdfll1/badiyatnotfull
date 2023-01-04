@@ -1,0 +1,142 @@
+.aboutUser {
+    background-color: #191919;
+    // height: 100vh;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    // height: 150vh;
+    .bgBig {
+        height: 90vh;
+        width: 45%;
+        .bg1{
+            img{
+                height: 479px;
+                width: 479px;
+                object-fit: contain;
+            }
+        }
+        .wasBorn {
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: center;
+            // align-items: center;
+            // height: 200px;
+            span {
+                color: #fff;
+                width: 78%;
+                align-items: center;
+                justify-content: space-between;
+                height: 35px;
+            }
+        }
+        .wasBorn :first-child {
+            display: flex;
+            // flex-direction: column;
+            align-items: center;
+            font-size: 12px;
+            font-weight: 300;
+            color: rgba(255, 255, 255, 0.6);
+            h4 {
+                font-size: 12px;
+                font-weight: 300;
+                color: rgba(255, 255, 255, 0.6);
+            }
+        }
+        .wasBorn :nth-child(2) {
+            font-size: 39px;
+            display: flex;
+            font-weight: 400;
+            color: #c9ac8c;
+            // flex-direction: column;
+            align-items: center;
+            h5 {
+                font-size: 39px;
+                font-weight: 400;
+                color: #c9ac8c;
+                white-space: nowrap;
+            }
+        }
+        .wasBorn :last-child {
+            display: flex;
+            // flex-direction: column;
+            align-items: center;
+            font-size: 12px;
+            font-weight: 300;
+            color: rgba(255, 255, 255, 0.6);
+            h6 {
+                font-size: 12px;
+                font-weight: 300;
+                color: rgba(255, 255, 255, 0.6);
+            }
+        }
+    }
+
+    .aboutPerson {
+        width: 55%;
+        .text__aboutPerson {
+            span {
+                font-size: 48px;
+                color: #c9ac8c;
+                padding: 52px 0 20px 0;
+                text-transform: uppercase;
+                font-family: "Stylish";
+                font-weight: 400;
+            }
+            p {
+                width: 670px;
+                color: rgba(255, 255, 255, 0.8);
+                padding-bottom: 31px;
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+        .ijodi {
+            h6 {
+                color: #c9ac8c;
+                font-size: 20px;
+                font-weight: 400;
+            }
+            p {
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 20px;
+                width: 362px;
+                padding-left: 15px;
+            }
+        }
+    }
+}
+.Kitoblar {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    .kitob {
+        display: flex;
+        justify-content: space-between;
+        div{
+            margin-right: 20px;
+        }
+            img {
+            height: 250px;
+            width: 160px;
+        }
+        h6 {
+            font-size: 20px;
+            color: #c9ac8c;
+            text-transform: uppercase;
+            font-weight: 400;
+            padding: 0;
+            font-family: "Stylish";
+        }
+        h5 {
+            font-size: 12px;
+            font-weight: 300;
+            color: rgba(255, 255, 255, 0.6);
+            i {
+                font-size: 15px;
+                padding-right: 10px;
+                color: #fff;
+            }
+        }
+    }
+}
